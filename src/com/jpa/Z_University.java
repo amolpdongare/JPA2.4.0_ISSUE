@@ -17,7 +17,7 @@ import javax.persistence.Version;
 @Table(name="Z_University")
 public class Z_University {
 	@Id
-	//@GeneratedValue
+	@GeneratedValue
 	String uni_id;
 	
 	String name;
